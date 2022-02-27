@@ -58,13 +58,14 @@ html{
 }
 
 .card-image{
+    display: block;
     background-color: white;
-    z-index: 50;
-    width: 85%;
+    width: 65%;
     align-self: center;
+    margin-top: 1rem;
     aspect-ratio: 1;
     border-radius: 100%;
-    outline: 7px solid white;
+    outline: 5px solid white;
 }
 
 .card-name-age-split{
